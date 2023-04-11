@@ -56,9 +56,8 @@ h3 {
   padding: 20px 5px 10px 25px;
 }
 
-/* Main CSS */
 
-/* Header CSS */
+/* CallToAction CSS */
 
 .cta-wrap {
   display: flex;  
@@ -95,6 +94,8 @@ h3 {
   padding: 10px 10px;
   font-family: 'Karla', sans-serif;
 }
+
+
 
 .cta-image {
 
@@ -168,9 +169,49 @@ h3 {
   display: flex;
   justify-content: flex-start;
   padding: 15px;
-
   margin: 40px 0px 40px 40px;
   background-color: #6e8f84;
   border-radius: 5px;
   text-align: left;
 }
+
+/* Chicago CSS */
+
+.chicago-wrap {
+  display: flex;  
+  justify-content: space-evenly;
+
+}
+
+.chicago-container {  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  gap:10px;
+  padding: 0 50px 0 50px;
+}
+
+
+.chicago-about {
+
+  padding: 40px;
+  margin: 0 0px 0 40px;
+}
+
+.chicago-about p {
+  padding: 10px 0 20px 0;
+}
+
+
+.chicago-image {
+
+  padding: 40px;
+  margin: 0 40px 0 0px;
+}
+
+.chicago-image img {
+  height: 300px;
+}
+
+/* Specials CSS */
