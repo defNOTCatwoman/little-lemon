@@ -60,18 +60,17 @@ h3 {
 
 /* Header CSS */
 
-.cta-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100vh;
-  align-items: center;
+.cta-wrap {
+  display: flex;  
+  justify-content: space-evenly;
+  background-color: #495E57;
 }
 
-.cta-container {
-  display:grid;
-  grid-template-columns: auto auto;
+.cta-container {  
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 70%;
   gap:10px;
   background-color: #495E57;
   color: white;
@@ -79,9 +78,8 @@ h3 {
 }
 
 
-
 .cta-about {
-  grid-column: 1;
+
   padding: 40px;
   margin: 0 0px 0 40px;
 }
@@ -99,7 +97,7 @@ h3 {
 }
 
 .cta-image {
-  grid-column: 2;
+
   padding: 40px;
   margin: 0 40px 0 0px;
 }
@@ -116,31 +114,28 @@ h3 {
 }
 
 .footer-container {
-  display:grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;  
   justify-content: space-between;
-  font-family: 'Karla', sans-serif;
+    font-family: 'Karla', sans-serif;
   padding: 0 70px 0 70px;
 
 }
 
 .footer-logo {
-  grid-column: 1/2;
   padding: 40px;
 
 }
 .footer-menu {
-  grid-column: 2/3;
+
   padding: 40px;
 
 }
 .footer-contact {
-  grid-column:3/4;
+
   padding: 40px;
 
 }
 .footer-social {
-  grid-column: 4;
   padding: 40px;
 
 }
@@ -148,4 +143,34 @@ h3 {
 .footer-container h3 {
   font-family: 'Karla', sans-serif;
   padding-bottom: 5px;
+}
+
+/* CustomersSay CSS */
+
+.testimonial-wrap {
+  color: white;
+  background-color: #495E57;
+  text-align: center;
+}
+
+.testimonial-container {  
+  display: flex;  
+  justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.testimonial-header {  
+  color: white;
+  padding-top: 50px;
+}
+
+.testimonial-card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+
+  margin: 40px 0px 40px 40px;
+  background-color: #6e8f84;
+  border-radius: 5px;
+  text-align: left;
 }
