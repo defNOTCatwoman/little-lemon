@@ -25,5 +25,14 @@ ul {
 
 li {
   list-style: none;
-  padding: 20px 5px 10px 5px;
+  font-family: 'Karla', sans-serif;
+  padding: 30px 5px 10px 5px;
+}
+
+h1 {
+  font-family: 'Markazi Text', serif;
+}
+
+.logo-container {
+  padding: 20px 5px 10px 25px;
 }
