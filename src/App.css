@@ -3,6 +3,19 @@
   padding:0;
 }
 
+a {
+  text-decoration: none;
+  color: #495E57;
+}
+
+a:hover {
+  color: #6e8f84;
+}
+
+
+
+/* Nav CSS */
+
 .nav {
   display:grid;
   grid-template-columns: auto auto auto;
@@ -18,12 +31,12 @@
   grid-column: 2/ span 2;
 }
 
-ul {
+.nav ul {
   display: flex;
   justify-content: space-evenly;
 }
 
-li {
+.nav li {
   list-style: none;
   font-family: 'Karla', sans-serif;
   padding: 30px 5px 10px 5px;
@@ -31,8 +44,108 @@ li {
 
 h1 {
   font-family: 'Markazi Text', serif;
+  font-size: 40px
+}
+
+h3 {
+  font-family: 'Markazi Text', serif;
+  font-size: 18px;
 }
 
 .logo-container {
   padding: 20px 5px 10px 25px;
+}
+
+/* Main CSS */
+
+/* Header CSS */
+
+.cta-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  align-items: center;
+}
+
+.cta-container {
+  display:grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:10px;
+  background-color: #495E57;
+  color: white;
+  padding: 0 50px 0 50px;
+}
+
+
+
+.cta-about {
+  grid-column: 1;
+  padding: 40px;
+  margin: 0 0px 0 40px;
+}
+
+.cta-about p {
+  padding: 10px 0 20px 0;
+}
+
+.cta-about button {
+  border-radius: 5px;
+  border:none;
+  background-color: #F4CE14;
+  padding: 10px 10px;
+  font-family: 'Karla', sans-serif;
+}
+
+.cta-image {
+  grid-column: 2;
+  padding: 40px;
+  margin: 0 40px 0 0px;
+}
+
+.cta-image img {
+  height: 300px;
+}
+
+/* Footer CSS */
+
+.footer-container li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.footer-container {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  font-family: 'Karla', sans-serif;
+  padding: 0 70px 0 70px;
+
+}
+
+.footer-logo {
+  grid-column: 1/2;
+  padding: 40px;
+
+}
+.footer-menu {
+  grid-column: 2/3;
+  padding: 40px;
+
+}
+.footer-contact {
+  grid-column:3/4;
+  padding: 40px;
+
+}
+.footer-social {
+  grid-column: 4;
+  padding: 40px;
+
+}
+
+.footer-container h3 {
+  font-family: 'Karla', sans-serif;
+  padding-bottom: 5px;
 }
