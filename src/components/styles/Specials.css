@@ -1,0 +1,31 @@
+
+.specials-wrap{
+  display: flex;
+}
+
+.specials-container {  
+    font-family: 'Karla', sans-serif;
+    padding: 15px 20px 50px 20px;
+    text-align: center;
+  
+  }
+  
+   h3 {
+    font-size: 1.5rem;
+    
+  }
+  
+  .card {
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  .menu-button {
+      border-radius: 5px;
+  border:none;
+  font-size: 1.2rem;
+  background-color: #F4CE14;
+  padding: 10px 10px;
+  font-family: 'Markazi Text', serif;
+  margin-bottom: 20px;
+  }

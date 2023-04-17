@@ -1,0 +1,23 @@
+.card-wrap{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: column;
+    width: 250px;
+    font-family: 'Karla', sans-serif;
+    background-color: #6e8f84;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.card-img {
+    width: 75px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.card-wrap h3, p, img{
+    padding: 10px;
+}
+

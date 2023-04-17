@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import  smLogo  from '../assets/smlogo.png'
 
 const Footer = () => {
   return (
     <div className='footer-container'>
       <div className='footer-logo'>
-      Logo
+      <img src={smLogo} alt='Little Lemon'/>
       </div>
       <div className='footer-menu'>
         <h3>Navigation</h3>
